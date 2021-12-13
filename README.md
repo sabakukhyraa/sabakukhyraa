@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @sabakukhyraa
-- 👀 I’m interested in data science, web development, android apps 
+- 👀 I’m interested in data science, web development and android apps 
 - 🌱 I’m currently learning Kotlin and Js
 - 💞️ I’m looking to collaborate on a project with someone
 - 📫 How to reach me aliatabusiness@gmail.com
