@@ -1,0 +1,57 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    padding: 0 24px;
+}
+
+.il{
+    width: 100%;
+    padding: 80px;
+    background-color: #fff;
+    box-shadow: 0 20px 128px rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    border-radius: .130px;
+}
+
+.il_foto{
+    min-width: 560px;
+    max-width: 560px;
+    height: 480px;
+    transform: translateX(-128px);
+    position: relative;
+}
+
+.il_foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 40px;
+}
+
+.il_foto::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgb(172, 255, 156, .6), rgb(132, 151, 255, .6));
+    box-shadow: .80px .80px 48px 1px rgba(0, 0, 0, .05);
+    border-radius: 40px;
+}

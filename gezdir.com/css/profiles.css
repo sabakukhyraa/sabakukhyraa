@@ -1,0 +1,151 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3, span{
+    color: black;
+  }
+
+  .container{
+    background: rgb(187, 255, 232);
+    background-image: linear-gradient(120deg, #5ce6ff, #92ff7c);  height: 100vh; display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .kart{
+    display: grid;
+    grid-template-columns: 2fr 0fr;
+    width: 500px;
+    height: 484px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 8px 15px 25px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+
+  .kart .profil{
+    text-align: center;
+    padding: 64px;
+  }
+
+  .profil .img-wrapper{
+    margin: 80px auto;
+    position: relative;
+    width: 215px;
+    height: 130px;
+      
+  }
+
+  .profil .img-wrapper img{
+    margin-bottom: 125px ;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    padding: 4px;  
+  }
+
+  .profil h1{
+    margin-top: 250px;
+    font-weight: 500;
+    font-size: 24px
+  }
+
+  .profil span{
+    margin-top: 6px;
+  }
+
+  .profil div{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .profil div button{
+    margin: 6px 0;
+    text-align: center;
+    width: 200px;
+    padding: 10px 38px;
+    outline: none;
+    border: transparent;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+
+  .profil div button.takip{
+    background: #32ff9f;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    border: 2px solid transparent;
+  }
+
+  .profil div button.takip:hover{
+    background: transparent;
+    color: #32ff9f;
+    border: 2px solid #32ff9f;
+  }
+
+  .profil div button.favori{
+    border: 2px solid #32ff9f;
+    color: #32ff9f;
+    background: #fff;
+    transition: all .3s ease-in-out;
+  }
+
+  .profil div button.favori:hover{
+    border: 2px solid transparent;
+    color: #fff;
+    background-color: #32ff9f;
+  }
+
+  .sosyal div {
+    background: #b7ffd5;
+    margin-bottom: 2px;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sosyal div:first-child{
+    border-radius: 0 8px 0 0;
+  }
+
+  .sosyal div:last-child{
+    margin-bottom: 0;
+    border-radius: 0 0 8px 0;
+  }
+
+  h2{
+    font-weight: 500;
+    font-size: 26px;
+  }
+
+  h3{
+    font-weight: 100;
+  }
+  
+  .geri{
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      border: 2px solid #32ff9f;
+      color: #32ff9f;
+      background: #fff;
+      transition: all .3s ease-in-out;
+
+  }
+
+  .geri:hover{
+    border: 2px solid transparent;
+    color: #fff;
+    background-color: #32ff9f;
+  }
