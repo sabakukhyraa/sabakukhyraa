@@ -1,0 +1,48 @@
+/* I fixed all the elements in the block in the middle of the block they are in. */
+body {
+    text-align: center;
+}
+
+/* I fixed the Google Logo in the middle. */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* I calculate the width rate of the table in the real 1998 Google page and applied it to mine.*/
+table {
+    width: 90%;
+    margin: auto;
+}
+
+
+#search-box {
+    background-color: #EEEEEE;
+}
+
+/* I calculated the search text area's real length with trial and error way to be the same as the real 1998 google page and applied. :)*/
+input[type=search] {
+    width: 302.5px;
+}
+
+
+#special{
+    background-color: #7EE5DA;
+    width: 37%;
+}
+
+
+#info {
+    background-color: #70CCC2;
+}
+
+
+#info a {
+    font-size: 12.5px;
+}
+
+
+#mail {
+    background-color: #62B3AA;
+}
